@@ -95,10 +95,10 @@ describe('Clase Gato', function() {
   // Por mas que heredemos las propiedades de Mamifero podemos sobre escribirlas para
   // que realicen acciones propias de nuestra clase (Polimorfismo)
   it("Debería tener su propiedad nuevoHijo que acepte un color", function() {
-    var batman = gato.nuevoHijo('Negro');
-    expect(gato.descendencia).toEqual([batman]);
-    expect(batman.nombre).toEqual('Capitán Jr');
-    expect(batman.color).toEqual('Negro');
+    var gatito = gato.nuevoHijo('Negro');
+    expect(gato.descendencia).toEqual([gatito]);
+    expect(gatito.nombre).toEqual('Capitán Jr');
+    expect(gatito.color).toEqual('Negro');
 
   });
 

@@ -62,11 +62,12 @@ describe('invocacionUnica', function() {
 
   beforeEach(function(){
     num = 0;
+
     incrementar = invocacionUnica(function() {
       num++;
     });
-  })
 
+  })
 
   it('La función debería incrementar una única vez', function() {
   
